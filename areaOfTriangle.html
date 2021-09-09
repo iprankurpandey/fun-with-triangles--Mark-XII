@@ -1,26 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="areaoftriangle.css" />
     <title>Area of Triangle</title>
-</head>
-<body>
-    <nav>
-        <a href="istriangle.html">is triangle</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypotenuse.html">hypotenuse</a>
-        <a href="areaOfTriangle.html">Area of triangle</a>
-        </nav>
+  </head>
+  <body>
+    <nav class="navigation container">
+      <div class="nav-brand">
+        <a class="navlink" href="index.html">I am Developer</a>
+      </div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="navlink link-active" href="/">is triangle</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="navlink" href="/quiz.html">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="navlink" href="/hypotenuse.html">Hypotenuse</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="navlink" href="/areaOfTriangle.html">Area of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+<p class="description">Calculate Area of Triangle</p>
+    <div class="class-input">
+    <label><input id="base" type="number" /> base</label> <br />
+    <label><input id="height" type="number" />height</label> <br />
+    <button id="buttonid" >calculate</button>
 
-    <h1>Calculate Area of Triangle</h1>
-<label><input id="base" type="number"/> base</label>
-	<label><input id="height" type="number"/>height</label>
-	<button id="button">calculate area of triangle</button>
-	<h2><div id="outputbox"></div></h2>
+    <h2><div id="outputbox"></div></h2></div>
     <script src="areaOfTriangle.js"></script>
-   
-</body>
-</html> 
-
+  </body>
+  <footer class="footer">
+    <div class="footer-header">Online Presence</div>
+    <ul class="social-links">
+      <li class="list-item-inline">
+        <a class="link" href="https://github.com/iprankurpandey"
+          ><i class="fa fa-github fa-1x"></i>Github</a
+        >
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://twitter.com/iprankurpandey"
+          ><i class="fa fa-twitter fa-1x"></i>Twitter</a
+        >
+      </li>
+      <li class="list-item-inline">
+        <a class="link" href="https://linkedin.com/in/iprankurpandey"
+          ><i class="fa fa-linkedin fa-1x"></i> Linkedin</a
+        >
+      </li>
+    </ul>
+  </footer>
+</html>
