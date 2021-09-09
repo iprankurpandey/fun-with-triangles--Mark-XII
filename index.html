@@ -1,32 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun with Triangles</title>
-    <link rel="stylesheet" href="style.css">
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>is triangle</title>
+	<link href="istriangle.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
-    <nav>
-        <a href="istriangle.html">is triangle</a>
-        <a href="quiz.html">Quiz</a>
-        <a href="hypotenuse.html">hypotenuse</a>
-        <a href="areaOfTriangle.html">Area of triangle</a>
-        </nav>
-    <h3>fun with triangles</h3>
-    <label for="angle1">angle1</label>
-    <input  type="number" class="angle-input"/>
-    <label for="angle1">angle2</label>
-    <input type="number"  class="angle-input"/>
-    <label for="angle1">angle3</label>
-    <input type="number" class="angle-input"/>
-    <button id="is-triangle-btn">is triangle?</button>
-    <div id="output"></div>
-    <!-- <script src="istriangle.js"></script> -->
+    <nav class="navigation container">
+
+        <div class="nav-brand"><a class="navlink" href="index.html">I am Developer</a></div>
+
+        <ul class="list-non-bullet nav-pills">
+
+            <li class="list-item-inline"><a class="navlink link-active" href="/">is triangle</a></li>
+            <li class="list-item-inline"><a class="navlink " href="/quiz.html">Quiz</a></li>
+            <li class="list-item-inline"><a class="navlink " href="/hypotenuse.html">Hypotenuse</a></li>
+            <li class="list-item-inline"><a class="navlink " href="/areaOfTriangle.html">Area of Triangle</a></li>
+
+        </ul>
+    </nav>
+    <p class="description"> Is triangle ?</p>
+<div class="input-angle">
+<input type="text" id="angle1" class="angle" /><br>
+<input type="text" id="angle2" class="angle" /><br>
+<input type="text" id="angle3" class="angle" /><br>
+<button id="button">isTriangle ?</button>
+
+<h2><div id="outputbox"></div></h2></div>
+<script src="isTriangle.js"></script>
 </body>
 
+
+<footer class="footer">
+    <div class="footer-header">Online Presence</div>
+    <ul class="social-links">
+        <li class="list-item-inline"><a class="link" href="https://github.com/iprankurpandey" ><i class="fa fa-github fa-1x"></i>Github</a></li>
+        <li class="list-item-inline"><a class="link" href="https://twitter.com/iprankurpandey"><i class="fa fa-twitter fa-1x"></i>Twitter</a></li>
+        <li class="list-item-inline"><a class="link" href="https://linkedin.com/in/iprankurpandey"><i class="fa fa-linkedin fa-1x"></i> Linkedin</a>
+        </li>
+    </ul>
+</footer>
 </html>

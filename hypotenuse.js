@@ -1,6 +1,6 @@
 const base = document.querySelector('#base')
 const opposite = document.querySelector('#opposite')
-const button = document.querySelector('#hypotenuse-btn')
+const button = document.querySelector('#button')
 const outputBox = document.querySelector('#outputbox')
 
 function calculateHypotenis(){
