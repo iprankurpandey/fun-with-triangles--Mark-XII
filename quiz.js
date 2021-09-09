@@ -1,22 +1,20 @@
-const quizForm = document.querySelector('.quiz-form')
-const submitAnswerBtn= document.querySelector('#submit-answer-btn')
-const outputE1 = document.querySelector('#output')
-const correctAnswers=["90°","right angled"]
-
-function calculateScore (){
-let score=0;
-let index=0;
-const formResults = new FormData(quizForm)
-// console.log(formResults)
-for (let value of formResults.values()){
-    // console.log(value)
-    if (value === correctAnswers[index]){
-        score=score+1
-    }
-    index =index+1
-}
-console.log(score)
-outputE1.innerText = "your score is "+score;
+const form = document.querySelector('.quiz-form')
+const button = document.querySelector('#button')
+const outputBox = document.querySelector('#outputbox')
+const quizAnswers = ['90°', 'right angled']
+function formResult() {
+	let score=0;
+	let index=0;
+	const formFile = new FormData(form)
+	for (let answer of formFile.values()) 
+	{
+		if (answer === quizAnswers[index]) {
+			score++
+			console.log(score)
+		}
+		index++
+	}
+	outputBox.innerHTML = score;
 }
 
-submitAnswerBtn.addEventListener("click", calculateScore)
+button.addEventListener('click', formResult)
