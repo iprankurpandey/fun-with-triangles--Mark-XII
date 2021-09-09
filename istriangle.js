@@ -12,7 +12,7 @@ else if (sum <= 0){
 	outputBox.innerHTML= 'enter valid triangles'
 }
 else{
-	outputBox.innerHTML= 'these angles dont forms a triangle'
+	outputBox.innerHTML= 'these angles doesnt form a triangle'
 }
 } 
 
