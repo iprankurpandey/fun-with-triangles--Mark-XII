@@ -15,7 +15,7 @@
 
 const base = document.querySelector('#base')
 const height = document.querySelector('#height')
-const button = document.querySelector('#button')
+const button = document.querySelector('#buttonid')
 const outputBox = document.querySelector('#outputbox')
 
 function calculateArea(){
