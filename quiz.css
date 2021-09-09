@@ -23,8 +23,10 @@
 }
 
 .description {
-  font-size: larger;
+  font-size: 3rem;
   margin: 1.5rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 input .label {
@@ -40,12 +42,23 @@ input {
   margin: 1rem;
   border: 2px solid var(--primary-color);
   border-radius: 0.5rem;
-  width: 100%;
+  /* width: 100%; */
   max-width: 250px;
+  text-align: center;
 
 }
+.question-container{
+  text-align: center;
+}
+.class-input{
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   margin: 5rem;
+ }
 
-#button {
+ 
+#button{
   background: var(--primary-color);
   border: none;
   color: #fff;
@@ -56,7 +69,11 @@ input {
   outline: #fff;
   margin: auto;
   display: block;
+  text-align: center;
+  /* position: absolute; */
 }
+
+
 
 #outputbox {
   display: block;
@@ -92,4 +109,51 @@ input {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
-}-->
+}
+
+/* container */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+/* navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding:1rem;
+    /* updated border radius to get flat round corner at header */
+    border-bottom-left-radius: 0.1rem; 
+}
+
+.nav-brand{
+font-weight: bold;
+font-size: 1.1rem;
+
+}
+.nav-pills{
+    text-align: right;
+}
+
+.navlink{
+   
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+.link-active{
+    font-weight: bold;
+    text-decoration: none;
+}
+

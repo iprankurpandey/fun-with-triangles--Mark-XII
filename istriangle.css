@@ -23,14 +23,16 @@
 }
 
 .description {
-  font-size: larger;
-  margin: 1.5rem;
+  font-size:2rem;
+  margin: 0.5rem;
+  text-align: center;
+  font-weight: bold;
 }
 
 input .label {
   display: block;
   font-size: large;
-  font-weight: 600;
+  font-weight: 200;
 }
 
 input {
@@ -40,11 +42,19 @@ input {
   margin: 1rem;
   border: 2px solid var(--primary-color);
   border-radius: 0.5rem;
-  width: 100%;
-  max-width: 250px;
+  /* width: 100%; */
+  /* max-width: 250px; */
+  text-align: center;
 
 }
+.input-angle{
+   text-align: center;
+   text-decoration: none;
+   display: block;
+   margin: 3rem;
+ }
 
+ 
 #button {
   background: var(--primary-color);
   border: none;
@@ -92,4 +102,51 @@ input {
 .list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
-}-->
+}
+
+/* container */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+/* navigation */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding:1rem;
+    /* updated border radius to get flat round corner at header */
+    border-bottom-left-radius: 0.1rem; 
+}
+
+.nav-brand{
+font-weight: bold;
+font-size: 1.1rem;
+
+}
+.nav-pills{
+    text-align: right;
+}
+
+.navlink{
+   
+    text-decoration: none;
+    color: #ffffff;
+
+
+}
+.link-active{
+    font-weight: bold;
+    text-decoration: none;
+}
+
