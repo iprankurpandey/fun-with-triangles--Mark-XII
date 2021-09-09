@@ -1,20 +1,11 @@
-const sides = document.querySelectorAll('.side-input')
-const hypotenuseBtn=document.querySelector('#hypotenuse-btn')
-const outputE1=document.querySelector("#output")
-
-
-function calculateSum(b,h){
- const productofbaseandheight =1/2* b*h;
-//  console.log(productofbaseandheight)
-return productofbaseandheight;
-}
+const base = document.querySelector('#base')
+const height = document.querySelector('#height')
+const button = document.querySelector('#hypotenuse-btn')
+const outputBox = document.querySelector('#outputbox')
 
 function calculateArea(){
-  const  area  = calculateSum(Number (sides[0].value), Number(sides[1].value))
-  const areaOfTriangle = Math.abs(area)
-outputE1.innerText = "area of triangle is " + areaOfTriangle;
-
+const area = 1/2*(base.value)*(height.value)
+outputBox.innerHTML ='the area is : '+ area;	
+return area;
 }
-
-hypotenuseBtn.addEventListener("click", calculateArea)
-
+button.addEventListener('click',calculateArea)

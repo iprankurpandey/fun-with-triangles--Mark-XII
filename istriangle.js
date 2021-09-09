@@ -17,4 +17,3 @@ else{
 } 
 
 button.addEventListener('click', isTriangle)
-
