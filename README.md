@@ -1,4 +1,4 @@
-# stock profit and loss app
+# fun with triangles
 This is a fun to app check different triangle properties .this is part of neogcamp -Mark XII assesment.
 
 # tech stack
