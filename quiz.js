@@ -14,7 +14,7 @@ function formResult() {
 		}
 		index++
 	}
-	outputBox.innerHTML = 'your score is ': score;
+	outputBox.innerHTML = 'your score is :' score;
 }
 
 button.addEventListener('click', formResult)
